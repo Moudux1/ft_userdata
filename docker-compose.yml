@@ -1,0 +1,52 @@
+---
+services:
+  freqtrade:
+    image: freqtradeorg/freqtrade:develop_plot
+
+    restart: unless-stopped
+    container_name: freqtrade
+    volumes:
+      - "./user_data:/freqtrade/user_data"
+
+    ports:
+      - "127.0.0.1:8080:8080"
+    command: >
+      trade
+      --logfile /freqtrade/user_data/logs/freqtrade.log
+      --db-url sqlite:////freqtrade/user_data/dbs/tradesv3.sqlite
+      --config /freqtrade/user_data/config.json
+      --strategy SampleStrategy
+
+  AwesomeMacd:
+    image: freqtradeorg/freqtrade:stable
+
+    restart: unless-stopped
+    container_name: AwesomeMacd
+    volumes:
+      - "./user_data:/freqtrade/user_data"
+
+    ports:
+      - "127.0.0.1:8081:8080"
+    command: >
+      trade
+      --logfile /freqtrade/user_data/logs/amacd.log
+      --db-url sqlite:////freqtrade/user_data/dbs/amacd.sqlite
+      --config /freqtrade/user_data/config_amacd.json
+      --strategy AwesomeMacd
+
+  Strategy002:
+    image: freqtradeorg/freqtrade:stable
+
+    restart: unless-stopped
+    container_name: Strategy002
+    volumes:
+      - "./user_data:/freqtrade/user_data"
+
+    ports:
+      - "127.0.0.1:8082:8080"
+    command: >
+      trade
+      --logfile /freqtrade/user_data/logs/stra2.log
+      --db-url sqlite:////freqtrade/user_data/dbs/stra2.sqlite
+      --config /freqtrade/user_data/congif_stra2.json
+      --strategy Strategy002

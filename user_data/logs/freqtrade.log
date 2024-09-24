@@ -1,0 +1,1040 @@
+2024-09-23 14:11:16,390 - freqtrade.loggers - INFO - Verbosity set to 0
+2024-09-23 14:11:16,391 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2024-09-23 14:11:16,391 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2024-09-23 14:11:16,391 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2024-09-23 14:11:16,392 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2024-09-23 14:11:16,392 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2024-09-23 14:11:16,471 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2024-09-23 14:11:16,472 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2024-09-23 14:11:16,473 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2024-09-23 14:11:16,474 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2024-09-23 14:11:16,486 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2024-09-23 14:11:16,487 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2024-09-23 14:11:16,534 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2024-09-23 14:11:16,535 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2024-09-23 14:11:16,535 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2024-09-23 14:11:16,535 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2024-09-23 14:11:16,536 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2024-09-23 14:11:16,536 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2024-09-23 14:11:16,536 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2024-09-23 14:11:16,537 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2024-09-23 14:11:16,537 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2024-09-23 14:11:16,537 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2024-09-23 14:11:16,537 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2024-09-23 14:11:16,538 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2024-09-23 14:11:16,538 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2024-09-23 14:11:16,538 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2024-09-23 14:11:16,538 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2024-09-23 14:11:16,539 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2024-09-23 14:11:16,539 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2024-09-23 14:11:16,539 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2024-09-23 14:11:16,539 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2024-09-23 14:11:16,540 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2024-09-23 14:11:16,540 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2024-09-23 14:11:16,540 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2024-09-23 14:11:16,541 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2024-09-23 14:11:16,541 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2024-09-23 14:11:16,541 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2024-09-23 14:11:16,541 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2024-09-23 14:11:16,542 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2024-09-23 14:11:16,542 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2024-09-23 14:11:16,542 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2024-09-23 14:11:16,542 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2024-09-23 14:11:16,543 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2024-09-23 14:11:16,547 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2024-09-23 14:11:16,547 - freqtrade.exchange.exchange - INFO - Using CCXT 4.3.88
+2024-09-23 14:11:16,586 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2024-09-23 14:11:19,867 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2024-09-23 14:11:20,065 - freqtrade.wallets - INFO - Wallets synced.
+2024-09-23 14:11:20,687 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2024-09-23 14:11:21,002 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2024-09-23 14:11:21,002 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2024-09-23 14:11:21,028 - uvicorn.error - INFO - Started server process [1]
+2024-09-23 14:11:21,029 - uvicorn.error - INFO - Waiting for application startup.
+2024-09-23 14:11:21,030 - uvicorn.error - INFO - Application startup complete.
+2024-09-23 14:11:21,030 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2024-09-23 14:11:21,039 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2024-09-23 14:11:21,635 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2024-09-23 14:11:21,670 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'FDUSD/USDT', 'USDC/USDT', 'SOL/USDT', 'NEIRO/USDT', 'SUI/USDT', 'PEPE/USDT', 'TAO/USDT', 'CATI/USDT', 'FET/USDT', 'WIF/USDT', 'NEAR/USDT', 'XRP/USDT', 'DOGS/USDT', 'SAGA/USDT', 'DOGE/USDT', 'SEI/USDT', 'AAVE/USDT', 'FTM/USDT']
+2024-09-23 14:11:21,671 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2024-09-23 14:11:21,671 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2024-09-23 14:11:21,671 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2024-09-23 14:11:21,672 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2024-09-23 14:11:21,672 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2024-09-23 14:11:21,672 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2024-09-23 14:11:21,673 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2024-09-23 14:11:21,673 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2024-09-23 14:11:21,673 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2024-09-23 14:11:21,674 - freqtrade.worker - INFO - Changing state to: RUNNING
+2024-09-23 14:11:21,691 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2024-09-23 14:11:21,691 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2024-09-23 14:11:21,692 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2024-09-23 14:11:26,697 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:11:46,760 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2024-09-23 14:11:46,761 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2024-09-23 14:11:46,761 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2024-09-23 14:11:46,762 - freqtrade.freqtradebot - WARNING - Exception during cleanup: PendingRollbackError Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2024-09-23 14:11:46,763 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2024-09-23 14:11:46,763 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2024-09-23 14:11:46,763 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2024-09-23 14:11:46,773 - uvicorn.error - INFO - Shutting down
+2024-09-23 14:11:46,874 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-09-23 14:11:46,875 - uvicorn.error - INFO - Application shutdown complete.
+2024-09-23 14:11:46,876 - uvicorn.error - INFO - Finished server process [1]
+2024-09-23 14:11:46,876 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2024-09-23 14:11:46,877 - freqtrade.exchange.exchange_ws - INFO - USDC/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,877 - freqtrade.exchange.exchange_ws - INFO - FDUSD/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,877 - freqtrade.exchange.exchange_ws - INFO - NEAR/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,878 - freqtrade.exchange.exchange_ws - INFO - SOL/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,878 - freqtrade.exchange.exchange_ws - INFO - FTM/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,878 - freqtrade.exchange.exchange_ws - INFO - AAVE/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,879 - freqtrade.exchange.exchange_ws - INFO - FET/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,879 - freqtrade.exchange.exchange_ws - INFO - NEIRO/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,879 - freqtrade.exchange.exchange_ws - INFO - TAO/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,879 - freqtrade.exchange.exchange_ws - INFO - SUI/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,880 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,880 - freqtrade.exchange.exchange_ws - INFO - SAGA/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,880 - freqtrade.exchange.exchange_ws - INFO - PEPE/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,881 - freqtrade.exchange.exchange_ws - INFO - SEI/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,881 - freqtrade.exchange.exchange_ws - INFO - DOGS/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,881 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,881 - freqtrade.exchange.exchange_ws - INFO - CATI/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,882 - freqtrade.exchange.exchange_ws - INFO - DOGE/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,882 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:46,882 - freqtrade.exchange.exchange_ws - INFO - WIF/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:11:47,079 - freqtrade.freqtradebot - ERROR - Error during cleanup
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 25, in start_trading
+    worker.run()
+  File "/freqtrade/freqtrade/worker.py", line 78, in run
+    state = self._worker(old_state=state)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 119, in _worker
+    self._throttle(
+  File "/freqtrade/freqtrade/worker.py", line 160, in _throttle
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 194, in _process_running
+    self.freqtrade.process()
+  File "/freqtrade/freqtrade/freqtradebot.py", line 293, in process
+    self.enter_positions()
+  File "/freqtrade/freqtrade/freqtradebot.py", line 636, in enter_positions
+    trades_created += self.create_trade(pair)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 661, in create_trade
+    if not self.get_free_open_trades():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 355, in get_free_open_trades
+    open_trades = Trade.get_open_trade_count()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/persistence/trade_model.py", line 1478, in get_open_trade_count
+    return Trade.session.execute(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/orm/scoping.py", line 778, in execute
+    return self._proxied.execute(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/orm/context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2358, in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 18, in term_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/freqtradebot.py", line 218, in cleanup
+    Trade.commit()
+  File "/freqtrade/freqtrade/persistence/trade_model.py", line 1752, in commit
+    Trade.session.commit()
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 2028, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1320, in commit
+    trans.commit()
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2631, in commit
+    self._do_commit()
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2736, in _do_commit
+    self._connection_commit_impl()
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2707, in _connection_commit_impl
+    self.connection._commit_impl()
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1146, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2358, in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1144, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+                                  ^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 585, in connection
+    return self._revalidate_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 677, in _revalidate_connection
+    self._invalid_transaction()
+  File "/home/ftuser/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 667, in _invalid_transaction
+    raise exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2024-09-23 14:11:47,103 - freqtrade - INFO - SIGINT received, aborting ...
+2024-09-23 14:14:34,112 - freqtrade.loggers - INFO - Verbosity set to 0
+2024-09-23 14:14:34,112 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2024-09-23 14:14:34,113 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2024-09-23 14:14:34,113 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2024-09-23 14:14:34,113 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2024-09-23 14:14:34,114 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2024-09-23 14:14:34,149 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2024-09-23 14:14:34,150 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2024-09-23 14:14:34,151 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2024-09-23 14:14:34,163 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2024-09-23 14:14:34,163 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2024-09-23 14:14:34,192 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2024-09-23 14:14:34,193 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2024-09-23 14:14:34,194 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2024-09-23 14:14:34,194 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2024-09-23 14:14:34,194 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2024-09-23 14:14:34,195 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2024-09-23 14:14:34,195 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2024-09-23 14:14:34,195 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2024-09-23 14:14:34,195 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2024-09-23 14:14:34,196 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2024-09-23 14:14:34,196 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2024-09-23 14:14:34,196 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2024-09-23 14:14:34,196 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2024-09-23 14:14:34,197 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2024-09-23 14:14:34,197 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2024-09-23 14:14:34,197 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2024-09-23 14:14:34,197 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2024-09-23 14:14:34,197 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2024-09-23 14:14:34,198 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2024-09-23 14:14:34,198 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2024-09-23 14:14:34,198 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2024-09-23 14:14:34,198 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2024-09-23 14:14:34,199 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2024-09-23 14:14:34,199 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2024-09-23 14:14:34,199 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2024-09-23 14:14:34,199 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2024-09-23 14:14:34,200 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2024-09-23 14:14:34,200 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2024-09-23 14:14:34,200 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2024-09-23 14:14:34,200 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2024-09-23 14:14:34,201 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2024-09-23 14:14:34,203 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2024-09-23 14:14:34,204 - freqtrade.exchange.exchange - INFO - Using CCXT 4.3.88
+2024-09-23 14:14:34,237 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2024-09-23 14:14:37,183 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2024-09-23 14:14:37,247 - freqtrade.wallets - INFO - Wallets synced.
+2024-09-23 14:14:37,768 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2024-09-23 14:14:38,083 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2024-09-23 14:14:38,083 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2024-09-23 14:14:38,098 - uvicorn.error - INFO - Started server process [1]
+2024-09-23 14:14:38,098 - uvicorn.error - INFO - Waiting for application startup.
+2024-09-23 14:14:38,099 - uvicorn.error - INFO - Application startup complete.
+2024-09-23 14:14:38,100 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2024-09-23 14:14:38,108 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2024-09-23 14:14:38,839 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2024-09-23 14:14:38,877 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'FDUSD/USDT', 'USDC/USDT', 'SOL/USDT', 'NEIRO/USDT', 'SUI/USDT', 'PEPE/USDT', 'TAO/USDT', 'CATI/USDT', 'FET/USDT', 'WIF/USDT', 'NEAR/USDT', 'XRP/USDT', 'DOGS/USDT', 'SAGA/USDT', 'DOGE/USDT', 'SEI/USDT', 'AAVE/USDT', 'FTM/USDT']
+2024-09-23 14:14:38,878 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2024-09-23 14:14:38,878 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2024-09-23 14:14:38,879 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2024-09-23 14:14:38,879 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2024-09-23 14:14:38,880 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2024-09-23 14:14:38,880 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2024-09-23 14:14:38,881 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2024-09-23 14:14:38,881 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2024-09-23 14:14:38,882 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2024-09-23 14:14:38,882 - freqtrade.worker - INFO - Changing state to: RUNNING
+2024-09-23 14:14:38,900 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2024-09-23 14:14:38,900 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2024-09-23 14:14:38,901 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2024-09-23 14:14:43,905 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:15:15,059 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2024-09-23 14:15:15,059 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2024-09-23 14:15:15,060 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2024-09-23 14:15:15,062 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2024-09-23 14:15:15,062 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2024-09-23 14:15:15,062 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2024-09-23 14:15:15,098 - uvicorn.error - INFO - Shutting down
+2024-09-23 14:15:15,199 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-09-23 14:15:15,200 - uvicorn.error - INFO - Application shutdown complete.
+2024-09-23 14:15:15,200 - uvicorn.error - INFO - Finished server process [1]
+2024-09-23 14:15:15,201 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2024-09-23 14:15:15,201 - freqtrade.exchange.exchange_ws - INFO - DOGE/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,202 - freqtrade.exchange.exchange_ws - INFO - SUI/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,202 - freqtrade.exchange.exchange_ws - INFO - WIF/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,202 - freqtrade.exchange.exchange_ws - INFO - FTM/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,202 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,203 - freqtrade.exchange.exchange_ws - INFO - AAVE/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,203 - freqtrade.exchange.exchange_ws - INFO - USDC/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,203 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,203 - freqtrade.exchange.exchange_ws - INFO - SEI/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,204 - freqtrade.exchange.exchange_ws - INFO - NEIRO/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,204 - freqtrade.exchange.exchange_ws - INFO - CATI/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,204 - freqtrade.exchange.exchange_ws - INFO - PEPE/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,204 - freqtrade.exchange.exchange_ws - INFO - TAO/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,205 - freqtrade.exchange.exchange_ws - INFO - SOL/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,205 - freqtrade.exchange.exchange_ws - INFO - DOGS/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,205 - freqtrade.exchange.exchange_ws - INFO - NEAR/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,206 - freqtrade.exchange.exchange_ws - INFO - SAGA/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,206 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,206 - freqtrade.exchange.exchange_ws - INFO - FET/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,206 - freqtrade.exchange.exchange_ws - INFO - FDUSD/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:15:15,406 - freqtrade - INFO - SIGINT received, aborting ...
+2024-09-23 14:17:07,263 - freqtrade.loggers - INFO - Verbosity set to 0
+2024-09-23 14:17:07,264 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2024-09-23 14:17:07,264 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2024-09-23 14:17:07,264 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2024-09-23 14:17:07,264 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2024-09-23 14:17:07,265 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2024-09-23 14:17:07,294 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2024-09-23 14:17:07,297 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2024-09-23 14:17:07,298 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2024-09-23 14:17:07,310 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2024-09-23 14:17:07,310 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2024-09-23 14:17:07,345 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2024-09-23 14:17:07,346 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2024-09-23 14:17:07,346 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2024-09-23 14:17:07,346 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2024-09-23 14:17:07,347 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2024-09-23 14:17:07,347 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2024-09-23 14:17:07,347 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2024-09-23 14:17:07,348 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2024-09-23 14:17:07,348 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2024-09-23 14:17:07,348 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2024-09-23 14:17:07,349 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2024-09-23 14:17:07,349 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2024-09-23 14:17:07,349 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2024-09-23 14:17:07,349 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2024-09-23 14:17:07,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2024-09-23 14:17:07,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2024-09-23 14:17:07,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2024-09-23 14:17:07,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2024-09-23 14:17:07,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2024-09-23 14:17:07,351 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2024-09-23 14:17:07,351 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2024-09-23 14:17:07,351 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2024-09-23 14:17:07,351 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2024-09-23 14:17:07,352 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2024-09-23 14:17:07,352 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2024-09-23 14:17:07,352 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2024-09-23 14:17:07,352 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2024-09-23 14:17:07,353 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2024-09-23 14:17:07,353 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2024-09-23 14:17:07,353 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2024-09-23 14:17:07,353 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2024-09-23 14:17:07,356 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2024-09-23 14:17:07,357 - freqtrade.exchange.exchange - INFO - Using CCXT 4.3.88
+2024-09-23 14:17:07,387 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2024-09-23 14:17:10,385 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2024-09-23 14:17:10,431 - freqtrade.wallets - INFO - Wallets synced.
+2024-09-23 14:17:10,941 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2024-09-23 14:17:11,237 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2024-09-23 14:17:11,238 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2024-09-23 14:17:11,251 - uvicorn.error - INFO - Started server process [1]
+2024-09-23 14:17:11,251 - uvicorn.error - INFO - Waiting for application startup.
+2024-09-23 14:17:11,252 - uvicorn.error - INFO - Application startup complete.
+2024-09-23 14:17:11,253 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2024-09-23 14:17:11,261 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2024-09-23 14:17:11,981 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2024-09-23 14:17:12,017 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'FDUSD/USDT', 'USDC/USDT', 'SOL/USDT', 'NEIRO/USDT', 'SUI/USDT', 'PEPE/USDT', 'TAO/USDT', 'CATI/USDT', 'FET/USDT', 'WIF/USDT', 'NEAR/USDT', 'XRP/USDT', 'DOGS/USDT', 'SAGA/USDT', 'DOGE/USDT', 'SEI/USDT', 'AAVE/USDT', 'FTM/USDT']
+2024-09-23 14:17:12,018 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2024-09-23 14:17:12,019 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2024-09-23 14:17:12,019 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2024-09-23 14:17:12,020 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2024-09-23 14:17:12,020 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2024-09-23 14:17:12,020 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2024-09-23 14:17:12,021 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2024-09-23 14:17:12,021 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2024-09-23 14:17:12,021 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2024-09-23 14:17:12,022 - freqtrade.worker - INFO - Changing state to: RUNNING
+2024-09-23 14:17:12,034 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2024-09-23 14:17:12,034 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2024-09-23 14:17:12,034 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2024-09-23 14:17:17,041 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:17:41,818 - uvicorn.error - INFO - ('172.18.0.1', 49304) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzEwMTk2MSwiaWF0IjoxNzI3MTAxMDYxLCJ0eXBlIjoiYWNjZXNzIn0.no7OP5lXIH15EynzsAEkavV2_RVr4cGc0u09NhO5llI" [accepted]
+2024-09-23 14:17:41,818 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(243f887e, ('172.18.0.1', 49304))
+2024-09-23 14:17:41,819 - uvicorn.error - INFO - connection open
+2024-09-23 14:18:17,043 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:18:58,723 - uvicorn.error - INFO - ('172.18.0.1', 35468) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzEwMjAzOCwiaWF0IjoxNzI3MTAxMTM4LCJ0eXBlIjoiYWNjZXNzIn0.xN3a2cGYQjq8p5e9YUQsnlBFQzyaEqCkQ8wQ-ebZCBI" [accepted]
+2024-09-23 14:18:58,723 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(daf45fdf, ('172.18.0.1', 35468))
+2024-09-23 14:18:58,724 - uvicorn.error - INFO - connection open
+2024-09-23 14:18:58,743 - uvicorn.error - INFO - ('172.18.0.1', 35482) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzEwMjAzOCwiaWF0IjoxNzI3MTAxMTM4LCJ0eXBlIjoiYWNjZXNzIn0.xN3a2cGYQjq8p5e9YUQsnlBFQzyaEqCkQ8wQ-ebZCBI" [accepted]
+2024-09-23 14:18:58,743 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(12cf090b, ('172.18.0.1', 35482))
+2024-09-23 14:18:58,744 - uvicorn.error - INFO - connection open
+2024-09-23 14:18:58,769 - uvicorn.error - INFO - ('172.18.0.1', 35498) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzEwMjAzOCwiaWF0IjoxNzI3MTAxMTM4LCJ0eXBlIjoiYWNjZXNzIn0.xN3a2cGYQjq8p5e9YUQsnlBFQzyaEqCkQ8wQ-ebZCBI" [accepted]
+2024-09-23 14:18:58,770 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(6bae2a1e, ('172.18.0.1', 35498))
+2024-09-23 14:18:58,770 - uvicorn.error - INFO - connection open
+2024-09-23 14:19:17,044 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:20:20,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:21:21,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:22:21,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:23:21,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:24:21,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:25:26,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:26:26,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:27:26,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:28:26,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2024.8', state='RUNNING'
+2024-09-23 14:28:38,413 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2024-09-23 14:28:38,414 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2024-09-23 14:28:38,414 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2024-09-23 14:28:38,416 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2024-09-23 14:28:38,416 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2024-09-23 14:28:38,417 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2024-09-23 14:28:38,485 - uvicorn.error - INFO - Shutting down
+2024-09-23 14:28:38,487 - uvicorn.error - INFO - connection closed
+2024-09-23 14:28:38,488 - uvicorn.error - INFO - connection closed
+2024-09-23 14:28:38,488 - uvicorn.error - INFO - connection closed
+2024-09-23 14:28:38,489 - uvicorn.error - INFO - connection closed
+2024-09-23 14:28:38,489 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(daf45fdf, ('172.18.0.1', 35468))
+2024-09-23 14:28:38,490 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(243f887e, ('172.18.0.1', 49304))
+2024-09-23 14:28:38,491 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(6bae2a1e, ('172.18.0.1', 35498))
+2024-09-23 14:28:38,491 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(12cf090b, ('172.18.0.1', 35482))
+2024-09-23 14:28:38,588 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-09-23 14:28:38,588 - uvicorn.error - INFO - Application shutdown complete.
+2024-09-23 14:28:38,589 - uvicorn.error - INFO - Finished server process [1]
+2024-09-23 14:28:38,589 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2024-09-23 14:28:38,590 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,590 - freqtrade.exchange.exchange_ws - INFO - FTM/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,590 - freqtrade.exchange.exchange_ws - INFO - TAO/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,591 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,591 - freqtrade.exchange.exchange_ws - INFO - USDC/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,591 - freqtrade.exchange.exchange_ws - INFO - DOGE/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,592 - freqtrade.exchange.exchange_ws - INFO - DOGS/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,592 - freqtrade.exchange.exchange_ws - INFO - NEAR/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,592 - freqtrade.exchange.exchange_ws - INFO - CATI/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,592 - freqtrade.exchange.exchange_ws - INFO - PEPE/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,593 - freqtrade.exchange.exchange_ws - INFO - AAVE/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,593 - freqtrade.exchange.exchange_ws - INFO - SOL/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,593 - freqtrade.exchange.exchange_ws - INFO - FDUSD/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,593 - freqtrade.exchange.exchange_ws - INFO - SAGA/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,594 - freqtrade.exchange.exchange_ws - INFO - WIF/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,594 - freqtrade.exchange.exchange_ws - INFO - SUI/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,594 - freqtrade.exchange.exchange_ws - INFO - NEIRO/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,594 - freqtrade.exchange.exchange_ws - INFO - FET/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,595 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,595 - freqtrade.exchange.exchange_ws - INFO - SEI/USDT, 5m, spot - Task finished - cancelled
+2024-09-23 14:28:38,791 - freqtrade - INFO - SIGINT received, aborting ...
+2024-09-24 02:27:15,328 - freqtrade.loggers - INFO - Verbosity set to 0
+2024-09-24 02:27:15,331 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2024-09-24 02:27:15,332 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2024-09-24 02:27:15,333 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2024-09-24 02:27:15,333 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/dbs/tradesv3.sqlite"
+2024-09-24 02:27:15,334 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2024-09-24 02:27:15,407 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2024-09-24 02:27:15,409 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2024-09-24 02:27:15,411 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2024-09-24 02:27:15,432 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2024-09-24 02:27:15,434 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2024-09-24 02:27:15,446 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/ IchimokuCloud.py due to 'unterminated string literal (detected at line 6) ( IchimokuCloud.py, line 6)'
+2024-09-24 02:27:15,527 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2024-09-24 02:27:15,530 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2024-09-24 02:27:15,532 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2024-09-24 02:27:15,532 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2024-09-24 02:27:15,533 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2024-09-24 02:27:15,533 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2024-09-24 02:27:15,534 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2024-09-24 02:27:15,536 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2024-09-24 02:27:15,537 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2024-09-24 02:27:15,538 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2024-09-24 02:27:15,538 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2024-09-24 02:27:15,538 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2024-09-24 02:27:15,539 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2024-09-24 02:27:15,539 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2024-09-24 02:27:15,539 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2024-09-24 02:27:15,540 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2024-09-24 02:27:15,540 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2024-09-24 02:27:15,540 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2024-09-24 02:27:15,541 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2024-09-24 02:27:15,541 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2024-09-24 02:27:15,541 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2024-09-24 02:27:15,542 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2024-09-24 02:27:15,542 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2024-09-24 02:27:15,542 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2024-09-24 02:27:15,543 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2024-09-24 02:27:15,543 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2024-09-24 02:27:15,543 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2024-09-24 02:27:15,544 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2024-09-24 02:27:15,544 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2024-09-24 02:27:15,545 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2024-09-24 02:27:15,546 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2024-09-24 02:27:15,551 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2024-09-24 02:27:15,553 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.6
+2024-09-24 02:27:15,607 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2024-09-24 02:27:19,209 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2024-09-24 02:27:19,353 - freqtrade.wallets - INFO - Wallets synced.
+2024-09-24 02:27:19,673 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2024-09-24 02:27:19,987 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2024-09-24 02:27:19,988 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2024-09-24 02:27:20,015 - uvicorn.error - INFO - Started server process [1]
+2024-09-24 02:27:20,016 - uvicorn.error - INFO - Waiting for application startup.
+2024-09-24 02:27:20,017 - uvicorn.error - INFO - Application startup complete.
+2024-09-24 02:27:20,018 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2024-09-24 02:27:20,032 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2024-09-24 02:27:20,780 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2024-09-24 02:27:20,838 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'FDUSD/USDT', 'USDC/USDT', 'NEIRO/USDT', 'SOL/USDT', 'SUI/USDT', 'CATI/USDT', 'TAO/USDT', 'PEPE/USDT', 'NEAR/USDT', 'FET/USDT', 'WIF/USDT', 'TIA/USDT', 'XRP/USDT', 'WLD/USDT', 'DOGE/USDT', 'AAVE/USDT', 'DOGS/USDT', 'SAGA/USDT']
+2024-09-24 02:27:20,840 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2024-09-24 02:27:20,842 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2024-09-24 02:27:20,844 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2024-09-24 02:27:20,845 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2024-09-24 02:27:20,846 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2024-09-24 02:27:20,846 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2024-09-24 02:27:20,847 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2024-09-24 02:27:20,849 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2024-09-24 02:27:20,850 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2024-09-24 02:27:20,851 - freqtrade.worker - INFO - Changing state to: RUNNING
+2024-09-24 02:27:20,865 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2024-09-24 02:27:20,866 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2024-09-24 02:27:20,866 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2024-09-24 02:27:25,879 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:27:58,022 - uvicorn.error - INFO - ('172.18.0.1', 35298) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzE0NTc3NywiaWF0IjoxNzI3MTQ0ODc3LCJ0eXBlIjoiYWNjZXNzIn0.4rmWkXb75tfFZKiEJGHadjQSdxsqgyiGdTRSkfPDyM4" [accepted]
+2024-09-24 02:27:58,023 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(0ef095c5, ('172.18.0.1', 35298))
+2024-09-24 02:27:58,024 - uvicorn.error - INFO - connection open
+2024-09-24 02:27:58,153 - uvicorn.error - INFO - ('172.18.0.1', 35310) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzE0NTc3NywiaWF0IjoxNzI3MTQ0ODc3LCJ0eXBlIjoiYWNjZXNzIn0.4rmWkXb75tfFZKiEJGHadjQSdxsqgyiGdTRSkfPDyM4" [accepted]
+2024-09-24 02:27:58,154 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(9985240b, ('172.18.0.1', 35310))
+2024-09-24 02:27:58,157 - uvicorn.error - INFO - connection open
+2024-09-24 02:27:58,174 - uvicorn.error - INFO - ('172.18.0.1', 35314) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzE0NTc3NywiaWF0IjoxNzI3MTQ0ODc3LCJ0eXBlIjoiYWNjZXNzIn0.4rmWkXb75tfFZKiEJGHadjQSdxsqgyiGdTRSkfPDyM4" [accepted]
+2024-09-24 02:27:58,174 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(8d18fc02, ('172.18.0.1', 35314))
+2024-09-24 02:27:58,175 - uvicorn.error - INFO - connection open
+2024-09-24 02:28:25,880 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:29:25,883 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:30:26,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:31:26,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:32:26,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:33:26,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:34:26,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:35:30,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:36:31,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:37:31,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:38:31,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:39:31,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:40:35,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:41:36,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:42:36,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:43:36,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:44:36,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:45:40,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:46:41,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:47:41,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:48:41,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:49:41,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:50:46,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:51:46,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:52:46,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:53:46,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:54:46,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:55:51,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:56:51,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:57:21,670 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'FDUSD/USDT', 'USDC/USDT', 'NEIRO/USDT', 'SOL/USDT', 'SUI/USDT', 'CATI/USDT', 'TAO/USDT', 'PEPE/USDT', 'NEAR/USDT', 'WIF/USDT', 'FET/USDT', 'TIA/USDT', 'XRP/USDT', 'WLD/USDT', 'DOGE/USDT', 'AAVE/USDT', 'DOGS/USDT', 'SAGA/USDT']
+2024-09-24 02:57:51,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:58:51,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 02:59:51,011 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:00:56,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:01:56,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:02:56,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:03:56,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:04:56,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:06:01,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:07:01,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:08:01,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:09:01,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:10:05,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:11:05,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:12:05,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:13:06,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:14:06,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:15:10,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:16:11,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:17:11,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:18:11,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:19:11,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:20:16,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:21:16,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:22:16,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:23:16,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:24:16,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:25:21,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:26:21,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:27:21,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:27:24,713 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2024-09-24 03:27:24,745 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'FDUSD/USDT', 'USDC/USDT', 'NEIRO/USDT', 'SOL/USDT', 'SUI/USDT', 'CATI/USDT', 'TAO/USDT', 'PEPE/USDT', 'NEAR/USDT', 'WIF/USDT', 'FET/USDT', 'TIA/USDT', 'XRP/USDT', 'WLD/USDT', 'DOGE/USDT', 'DOGS/USDT', 'SAGA/USDT', 'AAVE/USDT']
+2024-09-24 03:28:21,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:29:21,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:30:26,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:31:26,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:32:26,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:33:26,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:34:26,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:35:30,998 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:36:30,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:37:31,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:38:31,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:39:31,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:40:35,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:41:36,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:42:36,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:42:47,562 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for FET/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,572 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for DOGE/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,573 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for SAGA/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,574 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for XRP/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,575 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for SOL/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,576 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for ETH/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,576 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for TIA/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,577 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for WIF/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,578 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for NEAR/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,579 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for NEIRO/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,580 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for CATI/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,580 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for AAVE/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,581 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for DOGS/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,582 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for FDUSD/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,584 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for WLD/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,586 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for BTC/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,587 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for PEPE/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,587 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for USDC/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,588 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for SUI/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,589 - freqtrade.exchange.exchange_ws - ERROR - Exception in continuously_async_watch_ohlcv for TAO/USDT, 5m
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 147, in _continuously_async_watch_ohlcv
+    data = await self.ccxt_object.watch_ohlcv(pair, timeframe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1296, in watch_ohlcv
+    result = await self.watch_ohlcv_for_symbols([[symbol, timeframe]], since, limit, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/pro/binance.py", line 1353, in watch_ohlcv_for_symbols
+    symbol, timeframe, candles = await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.12/site-packages/ccxt/async_support/base/ws/future.py", line 41, in callback
+    f.result()
+ccxt.base.errors.NetworkError: Abnormal closure of client
+2024-09-24 03:42:47,590 - freqtrade.exchange.exchange_ws - INFO - FET/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,590 - freqtrade.exchange.exchange_ws - INFO - DOGE/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,590 - freqtrade.exchange.exchange_ws - INFO - SAGA/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,591 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,591 - freqtrade.exchange.exchange_ws - INFO - SOL/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,591 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,591 - freqtrade.exchange.exchange_ws - INFO - TIA/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,592 - freqtrade.exchange.exchange_ws - INFO - WIF/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,592 - freqtrade.exchange.exchange_ws - INFO - NEAR/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,592 - freqtrade.exchange.exchange_ws - INFO - NEIRO/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,593 - freqtrade.exchange.exchange_ws - INFO - CATI/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,593 - freqtrade.exchange.exchange_ws - INFO - AAVE/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,593 - freqtrade.exchange.exchange_ws - INFO - DOGS/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,593 - freqtrade.exchange.exchange_ws - INFO - FDUSD/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,594 - freqtrade.exchange.exchange_ws - INFO - WLD/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,594 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,594 - freqtrade.exchange.exchange_ws - INFO - PEPE/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,594 - freqtrade.exchange.exchange_ws - INFO - USDC/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,595 - freqtrade.exchange.exchange_ws - INFO - SUI/USDT, 5m, spot - Task finished - done
+2024-09-24 03:42:47,595 - freqtrade.exchange.exchange_ws - INFO - TAO/USDT, 5m, spot - Task finished - done
+2024-09-24 03:43:36,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:44:36,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:45:01,008 - freqtrade.exchange.exchange - INFO - Failed to reuse watch USDC/USDT, 5m, False, 1727149500000, 1727149319774, 2024-09-24T03:45:00, 2024-09-24T03:41:59 
+2024-09-24 03:45:01,011 - freqtrade.exchange.exchange - INFO - Failed to reuse watch NEAR/USDT, 5m, False, 1727149500000, 1727149318482, 2024-09-24T03:45:00, 2024-09-24T03:41:58 
+2024-09-24 03:45:01,013 - freqtrade.exchange.exchange - INFO - Failed to reuse watch WIF/USDT, 5m, False, 1727149500000, 1727149318482, 2024-09-24T03:45:00, 2024-09-24T03:41:58 
+2024-09-24 03:45:01,014 - freqtrade.exchange.exchange - INFO - Failed to reuse watch CATI/USDT, 5m, False, 1727149500000, 1727149319134, 2024-09-24T03:45:00, 2024-09-24T03:41:59 
+2024-09-24 03:45:01,015 - freqtrade.exchange.exchange - INFO - Failed to reuse watch DOGE/USDT, 5m, False, 1727149500000, 1727149311141, 2024-09-24T03:45:00, 2024-09-24T03:41:51 
+2024-09-24 03:45:01,016 - freqtrade.exchange.exchange - INFO - Failed to reuse watch FET/USDT, 5m, False, 1727149500000, 1727149308404, 2024-09-24T03:45:00, 2024-09-24T03:41:48 
+2024-09-24 03:45:01,016 - freqtrade.exchange.exchange - INFO - Failed to reuse watch SOL/USDT, 5m, False, 1727149500000, 1727149318482, 2024-09-24T03:45:00, 2024-09-24T03:41:58 
+2024-09-24 03:45:01,017 - freqtrade.exchange.exchange - INFO - Failed to reuse watch AAVE/USDT, 5m, False, 1727149500000, 1727149319361, 2024-09-24T03:45:00, 2024-09-24T03:41:59 
+2024-09-24 03:45:01,018 - freqtrade.exchange.exchange - INFO - Failed to reuse watch SAGA/USDT, 5m, False, 1727149500000, 1727149317269, 2024-09-24T03:45:00, 2024-09-24T03:41:57 
+2024-09-24 03:45:01,019 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ETH/USDT, 5m, False, 1727149500000, 1727149318482, 2024-09-24T03:45:00, 2024-09-24T03:41:58 
+2024-09-24 03:45:01,019 - freqtrade.exchange.exchange - INFO - Failed to reuse watch XRP/USDT, 5m, False, 1727149500000, 1727149318285, 2024-09-24T03:45:00, 2024-09-24T03:41:58 
+2024-09-24 03:45:01,020 - freqtrade.exchange.exchange - INFO - Failed to reuse watch FDUSD/USDT, 5m, False, 1727149500000, 1727149319515, 2024-09-24T03:45:00, 2024-09-24T03:41:59 
+2024-09-24 03:45:01,021 - freqtrade.exchange.exchange - INFO - Failed to reuse watch TIA/USDT, 5m, False, 1727149500000, 1727149318482, 2024-09-24T03:45:00, 2024-09-24T03:41:58 
+2024-09-24 03:45:01,022 - freqtrade.exchange.exchange - INFO - Failed to reuse watch BTC/USDT, 5m, False, 1727149500000, 1727149319515, 2024-09-24T03:45:00, 2024-09-24T03:41:59 
+2024-09-24 03:45:01,022 - freqtrade.exchange.exchange - INFO - Failed to reuse watch NEIRO/USDT, 5m, False, 1727149500000, 1727149318998, 2024-09-24T03:45:00, 2024-09-24T03:41:58 
+2024-09-24 03:45:01,023 - freqtrade.exchange.exchange - INFO - Failed to reuse watch DOGS/USDT, 5m, False, 1727149500000, 1727149319364, 2024-09-24T03:45:00, 2024-09-24T03:41:59 
+2024-09-24 03:45:01,024 - freqtrade.exchange.exchange - INFO - Failed to reuse watch SUI/USDT, 5m, False, 1727149500000, 1727149319774, 2024-09-24T03:45:00, 2024-09-24T03:41:59 
+2024-09-24 03:45:01,025 - freqtrade.exchange.exchange - INFO - Failed to reuse watch PEPE/USDT, 5m, False, 1727149500000, 1727149319618, 2024-09-24T03:45:00, 2024-09-24T03:41:59 
+2024-09-24 03:45:01,026 - freqtrade.exchange.exchange - INFO - Failed to reuse watch TAO/USDT, 5m, False, 1727149500000, 1727149320049, 2024-09-24T03:45:00, 2024-09-24T03:42:00 
+2024-09-24 03:45:01,027 - freqtrade.exchange.exchange - INFO - Failed to reuse watch WLD/USDT, 5m, False, 1727149500000, 1727149319515, 2024-09-24T03:45:00, 2024-09-24T03:41:59 
+2024-09-24 03:45:40,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:46:41,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:47:41,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:48:41,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:49:41,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:50:01,654 - freqtrade.wallets - INFO - Wallets synced.
+2024-09-24 03:50:02,059 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for AAVE/USDT with stake_amount: 330.0 ...
+2024-09-24 03:50:02,312 - freqtrade.freqtradebot - INFO - Order dry_run_buy_AAVE/USDT_1727149802.063902 was created for AAVE/USDT and status is open.
+2024-09-24 03:50:02,365 - freqtrade.wallets - INFO - Wallets synced.
+2024-09-24 03:50:02,366 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'AAVE/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 169.58, 'open_rate': 169.58, 'order_type': 'limit', 'stake_amount': 330.0, 'stake_currency': 'USDT', 'base_currency': 'AAVE', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 1.945, 'open_date': datetime.datetime(2024, 9, 24, 3, 50, 2, 313977, tzinfo=datetime.timezone.utc), 'current_rate': 169.58, 'sub_trade': False}
+2024-09-24 03:50:06,313 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=AAVE/USDT, amount=1.94598420, is_short=False, leverage=1.0, open_rate=169.58000000, open_since=2024-09-24 03:50:02)
+2024-09-24 03:50:06,331 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=AAVE/USDT, amount=1.94598420, is_short=False, leverage=1.0, open_rate=169.58000000, open_since=2024-09-24 03:50:02) [buy]: 0.3298331 USDT - rate: 0.001
+2024-09-24 03:50:06,332 - freqtrade.persistence.trade_model - INFO - Updating trade (id=1) ...
+2024-09-24 03:50:06,332 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=1, pair=AAVE/USDT, amount=1.94500000, is_short=False, leverage=1.0, open_rate=169.58000000, open_since=2024-09-24 03:50:02).
+2024-09-24 03:50:06,343 - freqtrade.wallets - INFO - Wallets synced.
+2024-09-24 03:50:06,348 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry_fill, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'AAVE/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 169.58, 'open_rate': 169.58, 'order_type': 'limit', 'stake_amount': 329.8331, 'stake_currency': 'USDT', 'base_currency': 'AAVE', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 1.945, 'open_date': datetime.datetime(2024, 9, 24, 3, 50, 2, 313977, tzinfo=datetime.timezone.utc), 'current_rate': 169.58, 'sub_trade': False}
+2024-09-24 03:50:46,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:51:46,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:52:46,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:53:46,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:54:46,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:55:51,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:56:51,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:57:26,719 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'USDC/USDT', 'NEIRO/USDT', 'FDUSD/USDT', 'SOL/USDT', 'SUI/USDT', 'CATI/USDT', 'TAO/USDT', 'NEAR/USDT', 'PEPE/USDT', 'WIF/USDT', 'FET/USDT', 'TIA/USDT', 'XRP/USDT', 'WLD/USDT', 'DOGE/USDT', 'DOGS/USDT', 'SAGA/USDT', 'AR/USDT']
+2024-09-24 03:57:51,011 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:58:51,014 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 03:59:51,015 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:00:56,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:01:56,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:02:56,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:03:56,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:04:56,011 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:06:01,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:07:01,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:08:01,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:09:01,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:10:05,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:11:06,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:12:06,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:13:06,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:14:06,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:15:10,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:16:11,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:17:11,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:18:11,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:19:11,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:20:15,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:21:16,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:22:16,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:23:16,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:24:16,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:25:21,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:25:39,196 - uvicorn.error - INFO - connection closed
+2024-09-24 04:25:39,197 - uvicorn.error - INFO - connection closed
+2024-09-24 04:25:39,203 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(9985240b, ('172.18.0.1', 35310))
+2024-09-24 04:25:39,205 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(0ef095c5, ('172.18.0.1', 35298))
+2024-09-24 04:25:39,206 - uvicorn.error - INFO - connection closed
+2024-09-24 04:25:39,211 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(8d18fc02, ('172.18.0.1', 35314))
+2024-09-24 04:25:40,010 - uvicorn.error - INFO - ('172.18.0.1', 47010) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzE1MjE1OSwiaWF0IjoxNzI3MTUxMjU5LCJ0eXBlIjoiYWNjZXNzIn0.MxNV5MGoijFk7GQVgo34UzNFU9AkkYlLWFefCETVavE" [accepted]
+2024-09-24 04:25:40,011 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(970967cb, ('172.18.0.1', 47010))
+2024-09-24 04:25:40,017 - uvicorn.error - INFO - connection open
+2024-09-24 04:25:40,033 - uvicorn.error - INFO - ('172.18.0.1', 47012) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzE1MjE1OSwiaWF0IjoxNzI3MTUxMjU5LCJ0eXBlIjoiYWNjZXNzIn0.MxNV5MGoijFk7GQVgo34UzNFU9AkkYlLWFefCETVavE" [accepted]
+2024-09-24 04:25:40,035 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(242bc318, ('172.18.0.1', 47012))
+2024-09-24 04:25:40,036 - uvicorn.error - INFO - connection open
+2024-09-24 04:25:40,342 - uvicorn.error - INFO - ('172.18.0.1', 47028) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoibW91In0sImV4cCI6MTcyNzE1MjE1OSwiaWF0IjoxNzI3MTUxMjU5LCJ0eXBlIjoiYWNjZXNzIn0.MxNV5MGoijFk7GQVgo34UzNFU9AkkYlLWFefCETVavE" [accepted]
+2024-09-24 04:25:40,343 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(2fd2c540, ('172.18.0.1', 47028))
+2024-09-24 04:25:40,344 - uvicorn.error - INFO - connection open
+2024-09-24 04:26:21,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:27:21,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:27:30,741 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2024-09-24 04:27:30,780 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'USDC/USDT', 'FDUSD/USDT', 'NEIRO/USDT', 'SOL/USDT', 'SUI/USDT', 'CATI/USDT', 'NEAR/USDT', 'PEPE/USDT', 'TAO/USDT', 'WIF/USDT', 'FET/USDT', 'TIA/USDT', 'XRP/USDT', 'WLD/USDT', 'DOGE/USDT', 'DOGS/USDT', 'SAGA/USDT', 'AR/USDT']
+2024-09-24 04:28:21,140 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:29:21,142 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:30:26,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:31:26,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.9-dev-91449d0c', state='RUNNING'
+2024-09-24 04:32:17,725 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2024-09-24 04:32:17,726 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2024-09-24 04:32:17,726 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2024-09-24 04:32:17,731 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': "1 open trades active.\n\nHandle these trades manually on Binance, or '/start' the bot again and use '/stopentry' to handle open trades gracefully. \nNote: Trades are simulated (dry run)."}
+2024-09-24 04:32:17,731 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2024-09-24 04:32:17,732 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2024-09-24 04:32:17,732 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2024-09-24 04:32:17,792 - uvicorn.error - INFO - Shutting down
+2024-09-24 04:32:17,796 - uvicorn.error - INFO - connection closed
+2024-09-24 04:32:17,796 - uvicorn.error - INFO - connection closed
+2024-09-24 04:32:17,797 - uvicorn.error - INFO - connection closed
+2024-09-24 04:32:17,797 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(2fd2c540, ('172.18.0.1', 47028))
+2024-09-24 04:32:17,798 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(242bc318, ('172.18.0.1', 47012))
+2024-09-24 04:32:17,798 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(970967cb, ('172.18.0.1', 47010))
+2024-09-24 04:32:17,896 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-09-24 04:32:17,898 - uvicorn.error - INFO - Application shutdown complete.
+2024-09-24 04:32:17,900 - uvicorn.error - INFO - Finished server process [1]
+2024-09-24 04:32:17,903 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2024-09-24 04:32:17,905 - freqtrade.exchange.exchange_ws - INFO - WLD/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,905 - freqtrade.exchange.exchange_ws - INFO - DOGE/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,906 - freqtrade.exchange.exchange_ws - INFO - PEPE/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,906 - freqtrade.exchange.exchange_ws - INFO - TIA/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,906 - freqtrade.exchange.exchange_ws - INFO - SUI/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,906 - freqtrade.exchange.exchange_ws - INFO - TAO/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,907 - freqtrade.exchange.exchange_ws - INFO - AR/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,907 - freqtrade.exchange.exchange_ws - INFO - USDC/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,907 - freqtrade.exchange.exchange_ws - INFO - WIF/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,908 - freqtrade.exchange.exchange_ws - INFO - CATI/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,908 - freqtrade.exchange.exchange_ws - INFO - FET/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,908 - freqtrade.exchange.exchange_ws - INFO - SOL/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,909 - freqtrade.exchange.exchange_ws - INFO - NEIRO/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,909 - freqtrade.exchange.exchange_ws - INFO - DOGS/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,909 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,909 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,910 - freqtrade.exchange.exchange_ws - INFO - AAVE/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,910 - freqtrade.exchange.exchange_ws - INFO - FDUSD/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,910 - freqtrade.exchange.exchange_ws - INFO - SAGA/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,910 - freqtrade.exchange.exchange_ws - INFO - NEAR/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:17,911 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 5m, spot - Task finished - cancelled
+2024-09-24 04:32:18,560 - freqtrade - INFO - SIGINT received, aborting ...
