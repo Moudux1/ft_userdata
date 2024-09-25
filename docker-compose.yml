@@ -18,7 +18,7 @@ services:
       --strategy SampleStrategy
 
   AwesomeMacd:
-    image: freqtradeorg/freqtrade:stable
+    image: freqtradeorg/freqtrade:develop_plot
 
     restart: unless-stopped
     container_name: AwesomeMacd
@@ -35,7 +35,7 @@ services:
       --strategy AwesomeMacd
 
   Strategy002:
-    image: freqtradeorg/freqtrade:stable
+    image: freqtradeorg/freqtrade:develop_plot
 
     restart: unless-stopped
     container_name: Strategy002

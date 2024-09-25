@@ -1,3 +1,6 @@
+docker compaose run --rm -freqtrade download-data --timerange 20200101- --timeframe 5m 15m
+
+
 1. Command: freqtrade list-exchanges
    Description: Lists all the supported exchanges by Freqtrade.
 
